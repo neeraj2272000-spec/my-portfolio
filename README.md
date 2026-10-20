@@ -11,24 +11,37 @@ Star schema (1 dimension, 2 fact tables), window functions for quarterly running
 - SQL: `SQL/Project - 1`
 - Dashboard: `Power BI/Healthcare Funding & Clinical Outcomes Dashboard.pbix`
 
+![Healthcare Funding Dashboard](images/healthcare-funding-dashboard.png)
+
 ### 2. Corporate CSR Funding & Livelihood Impact Tracker (SQL Server + Power BI)
 Analysis of 5,000 CSR project records: budget vs actual by district, NGO partner performance, cost per beneficiary, and delayed high-risk projects.
 - SQL: `SQL/Project 2`
 - Dashboard: `Power BI/Corporate CSR Funding & Livelihood Impact Tracker.pbix`
+
+![CSR Impact Tracker](images/csr-impact-tracker-dashboard.png)
 
 ### 3. Hospital Emergency Room Dashboard (SQL Server + Power BI)
 Monthly and consolidated views of patient admissions, wait times, department referrals, and the share of patients seen within the 30-minute target.
 - SQL: `SQL/Project - 3`
 - Dashboard: `Power BI/Hospital Dashboard.pbix`
 
+![Hospital ER Monthly View](images/powerbi-hospital-er-monthly.png)
+![Hospital ER Consolidated View](images/powerbi-hospital-er-consolidated.png)
+
 ### 4. Finance Summary Dashboard (Excel)
 Monthly revenue, expenses, profit and loss, and department-wise financials with slicers.
+
+![Finance Summary](images/excel-finance-summary.png)
 
 ### 5. HR Attrition Dashboard (Excel)
 Attrition rate (about 16%) with job role, education, age group, and gender breakdowns.
 
+![HR Attrition](images/excel-hr-attrition.png)
+
 ### 6. Vrinda Store Annual Sales Dashboard (Excel)
 Orders vs sales, top states, delivery status, and sales channel mix.
+
+![Store Sales](images/excel-store-annual-data.png)
 
 ## Tools
 SQL Server (T-SQL) · Power BI · DAX · MS Excel
