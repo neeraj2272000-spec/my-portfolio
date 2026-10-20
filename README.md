@@ -22,6 +22,10 @@ I build end-to-end data projects using **SQL, Excel, and Power BI**. Here are my
 * **What it does:** Evaluates social sector project outcomes, financial variances, and risk assessments for delayed NGO initiatives[cite: 5].
 * **Tools:**  SQL / Power BI
 
+## 🏥 6. Hospital Emergency Room (ER) Operations & Patient Flow Dashboard
+📌 Executive Summary
+This interactive Power BI dashboard provides an end-to-end operational view of hospital Emergency Room (ER) performance, tracking patient admissions, wait times, department referrals, and demographic distributions. Designed with dual analytical perspectives (Monthly View and Consolidated View), it enables clinical administrators and hospital directors to identify peak visitation hours, optimize ER staffing schedules, and track key compliance benchmarks like the 30-minute target wait time
+
 ---
 📫 **How to reach me:** 
 Email - neeraj2272000@gami.com
