@@ -12,7 +12,7 @@ The goal is to provide hospital management and operational leaders with data-dri
 * **Total Patient Inflow:** Tracked **9,216 total ER patient visits** across the dataset period.
 * **Admission Pipeline Rate:** Exactly **50.04% of patients were admitted** to inpatient wards, while **49.96% were treated and discharged**.
 * **Average Wait Time:** Hospital-wide average ER wait time sits at **35.3 minutes**.
-* **Target Compliance Rate:** Approximately **61% of patients are seen within the 30-minute target window**, while **39% experience target delays**.
+* **Target Compliance Rate:** Only about 39% of patients are seen within the 30-minute target window, while about 61% miss the target.
 * **Peak Visitation Hours:** Heavy arrival volume occurs in late evening and night shifts (**19:00 to 24:00**), with hourly patient traffic doubling compared to morning slots.
 * **Primary Department Referrals:** Over **40% of patients require specialized department transfers**, with **General Practice (1.8K)** and **Orthopedics (1.0K)** receiving the highest referral volume.
 * **Patient Satisfaction Score:** Maintained a high overall patient satisfaction rating averaging **5.0 / 5.0**.
