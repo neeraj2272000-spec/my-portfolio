@@ -1,32 +1,39 @@
 # Hi, I'm Neeraj! 👋 Welcome to My Data Analyst Portfolio
 
-I build end-to-end data projects using **SQL, Excel, and Power BI**. Here are my core projects:
+MSW graduate (IGNOU) building data skills in **SQL, Power BI and Excel** for social-sector Monitoring & Evaluation, MIS, and CSR reporting.
 
-## 📊 1. Finance Summary Dashboard
-* **What it does:** Tracks monthly revenue, expenses, profit & loss, and departmental financials[cite: 6].
-* **Tools:** Excel 
+> All datasets here are practice or synthetic data. Figures are illustrative and do not describe any real organization.
 
-## 👥 2. HR Attrition Dashboard
-* **What it does:** Analyzes employee turnover rates (17%), job role breakdowns, and performance vs. attrition[cite: 7].
-* **Tools:** Excel
+## Projects
 
-## 🛍️ 3. Vindra Retail & E-Commerce Sales
-* **What it does:** Analyzes annual sales, top-performing states, delivery status (92%), and channel orders (Amazon, Flipkart, Myntra)[cite: 8].
-* **Tools:** Excel
+### 1. Healthcare Funding & Clinical Outcomes (SQL Server + Power BI)
+Star schema (1 dimension, 2 fact tables), window functions for quarterly running budget totals and district-wise NGO ranking, and a Power BI dashboard.
+- SQL: `SQL/Project - 1`
+- Dashboard: `Power BI/Healthcare Funding & Clinical Outcomes Dashboard.pbix`
 
-## 🏥 4. Healthcare & Hospital Emergency Room Analytics
-* **What it does:** Tracks patient admissions, wait times, emergency room flows, and NGO funding outcomes[cite: 10, 11, 12].
-* **Tools:** SQL Server & Power BI
+### 2. Corporate CSR Funding & Livelihood Impact Tracker (SQL Server + Power BI)
+Analysis of 5,000 CSR project records: budget vs actual by district, NGO partner performance, cost per beneficiary, and delayed high-risk projects.
+- SQL: `SQL/Project 2`
+- Dashboard: `Power BI/Corporate CSR Funding & Livelihood Impact Tracker.pbix`
 
-## 🌍 5. Corporate CSR & Social Sector Impact Tracker
-* **What it does:** Evaluates social sector project outcomes, financial variances, and risk assessments for delayed NGO initiatives[cite: 5].
-* **Tools:**  SQL / Power BI
+### 3. Hospital Emergency Room Dashboard (SQL Server + Power BI)
+Monthly and consolidated views of patient admissions, wait times, department referrals, and the share of patients seen within the 30-minute target.
+- SQL: `SQL/Project - 3`
+- Dashboard: `Power BI/Hospital Dashboard.pbix`
 
-## 🏥 6. Hospital Emergency Room (ER) Operations & Patient Flow Dashboard
-📌 Executive Summary
-This interactive Power BI dashboard provides an end-to-end operational view of hospital Emergency Room (ER) performance, tracking patient admissions, wait times, department referrals, and demographic distributions. Designed with dual analytical perspectives (Monthly View and Consolidated View), it enables clinical administrators and hospital directors to identify peak visitation hours, optimize ER staffing schedules, and track key compliance benchmarks like the 30-minute target wait time
+### 4. Finance Summary Dashboard (Excel)
+Monthly revenue, expenses, profit and loss, and department-wise financials with slicers.
+
+### 5. HR Attrition Dashboard (Excel)
+Attrition rate (about 16%) with job role, education, age group, and gender breakdowns.
+
+### 6. Vrinda Store Annual Sales Dashboard (Excel)
+Orders vs sales, top states, delivery status, and sales channel mix.
+
+## Tools
+SQL Server (T-SQL) · Power BI · DAX · MS Excel
 
 ---
 📫 **How to reach me:** 
-Email - neeraj2272000@gami.com
-Linkedin - linkedin.com/in/neeraj-n-a4b124271
+**Email:** - neeraj2272000@gmail.com
+**Linkedin:** - linkedin.com/in/neeraj-n-a4b124271
