@@ -38,7 +38,7 @@ Attrition rate (about 16%) with job role, education, age group, and gender break
 
 ![HR Attrition](images/excel-hr-attrition.png)
 
-### 6. Vrinda Store Annual Sales Dashboard (Excel)
+### 6. Vindra Store Annual Sales Dashboard (Excel)
 Orders vs sales, top states, delivery status, and sales channel mix.
 
 ![Store Sales](images/excel-store-annual-data.png)
