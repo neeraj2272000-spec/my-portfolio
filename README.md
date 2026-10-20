@@ -35,5 +35,5 @@ SQL Server (T-SQL) · Power BI · DAX · MS Excel
 
 ---
 📫 **How to reach me:** 
-**Email:** - neeraj2272000@gmail.com
-**Linkedin:** - linkedin.com/in/neeraj-n-a4b124271
+**Email:**  neeraj2272000@gmail.com
+**Linkedin:** linkedin.com/in/neeraj-n-a4b124271
