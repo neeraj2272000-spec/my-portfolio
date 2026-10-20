@@ -18,6 +18,10 @@ I build end-to-end data projects using **SQL, Excel, and Power BI**. Here are my
 * **What it does:** Tracks patient admissions, wait times, emergency room flows, and NGO funding outcomes[cite: 10, 11, 12].
 * **Tools:** SQL Server & Power BI
 
+## 🌍 5. Corporate CSR & Social Sector Impact Tracker
+* **What it does:** Evaluates social sector project outcomes, financial variances, and risk assessments for delayed NGO initiatives[cite: 5].
+* **Tools:** Excel / Power BI
+
 ---
 📫 **How to reach me:** 
 Email - neeraj2272000@gami.com
