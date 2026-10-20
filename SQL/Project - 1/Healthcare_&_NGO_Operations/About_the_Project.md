@@ -1,34 +1,32 @@
-# 🏥 Hospital Emergency Room (ER) Operations & Patient Flow Analytics
+# Healthcare & NGO Operations: Relational SQL Database & Analytics
 
-## 📌 Project Overview
-This project provides an end-to-end operational and clinical analysis of Hospital Emergency Room (ER) performance. By combining raw relational database queries (**T-SQL**) with interactive Power BI dashboards, this project analyzes patient visitation patterns, admission pipeline efficiency, wait times, department referral bottlenecks, and demographic distribution.
-
-The goal is to provide hospital management and operational leaders with data-driven insights to reduce patient wait times, optimize ER doctor/nurse shift schedules, and streamline department transfers.
+## 📋 Project Overview
+This project implements a relational SQL database for tracking healthcare projects, NGO funding disbursements, and clinical outcomes across multiple regions. It includes data ingestion scripts via `BULK INSERT` and advanced analytical queries leveraging Common Table Expressions (CTEs), Window Functions, and Cross-Domain Aggregations.
 
 ---
 
-## 🔑 Key Operational Metrics & Findings
-
-* **Total Patient Inflow:** Tracked **9,216 total ER patient visits** across the dataset period[cite: 9].
-* **Admission Pipeline Rate:** Exactly **50.04% of patients were admitted** to inpatient wards, while **49.96% were treated and discharged**[cite: 9].
-* **Average Wait Time:** Hospital-wide average ER wait time sits at **35.3 minutes**[cite: 9].
-* **Target Compliance Rate:** Approximately **61% of patients are seen within the 30-minute target window**, while **39% experience target delays**[cite: 8, 9].
-* **Peak Visitation Hours:** Heavy arrival volume occurs in late evening and night shifts (**19:00 to 24:00**), with hourly patient traffic doubling compared to morning slots[cite: 8, 9].
-* **Primary Department Referrals:** Over **40% of patients require specialized department transfers**, with **General Practice (1.8K)** and **Orthopedics (1.0K)** receiving the highest referral volume[cite: 8, 9].
-* **Patient Satisfaction Score:** Maintained a high overall patient satisfaction rating averaging **5.0 / 5.0**[cite: 8, 9].
+## 🏗️ Relational Schema
+The database uses a star-like schema centered around the dimension table `dim_projects` linked to two transactional fact tables:
+1. **`dim_projects`** (Dimension Table): Stores core project metadata, target diseases, and regions.
+2. **`fact_clinical_outcomes`** (Fact Table): Tracks regional screening metrics, detected critical cases, and medical supply distribution.
+3. **`fact_funding_disbursement`** (Fact Table): Records financial allocations by fiscal year, quarter, and NGO partner.
 
 ---
 
-## 🛠️ Technical Stack & Implementation
+## ⚙️ SQL Requirements & Analytical Queries
 
-* **Database Engine:** SQL Server (T-SQL)
-* **Data Modeling & Visualization:** Power BI Desktop (DAX, Dynamic Slicers, Custom Navigation)
-* **Data Transformation:** Power Query (Time duration formatting, age binning, conditional column logic)
+### Requirement 1: Partitioned Running Total Analysis
+Computes a continuous running sum of budget allocations that automatically resets at the start of each distinct financial year across consecutive operational quarters.
+
+### Requirement 2: Regional Performance Benchmarking
+Ranks each NGO implementing partner based on their total volume of patients screened independently inside each unique district location (implemented via both direct joins and SQL Views).
+
+### Requirement 3: Cross-Domain Operational Metrics
+Connects project descriptions, financial transactions, and medical results to compute operational efficiency: **Total Medical Supply Units Distributed per Patient Screened** grouped by state and project name.
 
 ---
 
-## 💡 Strategic Recommendations
-
-1. **Optimize Peak Shift Staffing:** Increase nursing and triage doctor capacity during peak arrival slots (**19:00 – 24:00**) to lower the 39% missed-target wait time rate[cite: 8, 9].
-2. **Streamline Referral Bottlenecks:** Establish fast-track referral pathways between ER triage and high-volume departments (**General Practice & Orthopedics**) to reduce overall room turnover time[cite: 8, 9].
-3. **Targeted Care for High-Volume Age Groups:** Ensure dedicated geriatric and youth emergency care pathways, as the 10–39 age brackets represent the largest combined demographic segment[cite: 8, 9].
+## 🚀 How to Run
+1. Update the file paths in the `BULK INSERT` queries inside `sql/01_schema_and_bulk_insert.sql` to match your local system directory.
+2. Run `01_schema_and_bulk_insert.sql` to set up the database, tables, and load the data.
+3. Execute `02_analytical_queries.sql` to run the analytical insights.
