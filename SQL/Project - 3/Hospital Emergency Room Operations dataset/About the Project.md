@@ -29,6 +29,6 @@ The goal is to provide hospital management and operational leaders with data-dri
 
 ## 💡 Strategic Recommendations
 
-1. **Optimize Peak Shift Staffing:** Increase nursing and triage doctor capacity during peak arrival slots (**19:00 – 24:00**) to lower the 39% missed-target wait time rate.
+1. **Optimize Peak Shift Staffing:** Increase nursing and triage doctor capacity during peak arrival slots (19:00 – 24:00) to reduce the 61% missed-target rate.
 2. **Streamline Referral Bottlenecks:** Establish fast-track referral pathways between ER triage and high-volume departments (**General Practice & Orthopedics**) to reduce overall room turnover time.
 3. **Targeted Care for High-Volume Age Groups:** Ensure dedicated geriatric and youth emergency care pathways, as the 10–39 age brackets represent the largest combined demographic segment.
