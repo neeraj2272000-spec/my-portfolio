@@ -4,15 +4,15 @@ I build end-to-end data projects using **SQL, Excel, and Power BI**. Here are my
 
 ## 📊 1. Finance Summary Dashboard
 * **What it does:** Tracks monthly revenue, expenses, profit & loss, and departmental financials[cite: 6].
-* **Tools:** Excel / Power BI & SQL
+* **Tools:** Excel 
 
 ## 👥 2. HR Attrition Dashboard
 * **What it does:** Analyzes employee turnover rates (17%), job role breakdowns, and performance vs. attrition[cite: 7].
-* **Tools:** Excel / Power BI
+* **Tools:** Excel
 
 ## 🛍️ 3. Vindra Retail & E-Commerce Sales
 * **What it does:** Analyzes annual sales, top-performing states, delivery status (92%), and channel orders (Amazon, Flipkart, Myntra)[cite: 8].
-* **Tools:** Excel / Power BI
+* **Tools:** Excel
 
 ## 🏥 4. Healthcare & Hospital Emergency Room Analytics
 * **What it does:** Tracks patient admissions, wait times, emergency room flows, and NGO funding outcomes[cite: 10, 11, 12].
@@ -20,7 +20,7 @@ I build end-to-end data projects using **SQL, Excel, and Power BI**. Here are my
 
 ## 🌍 5. Corporate CSR & Social Sector Impact Tracker
 * **What it does:** Evaluates social sector project outcomes, financial variances, and risk assessments for delayed NGO initiatives[cite: 5].
-* **Tools:** Excel / Power BI
+* **Tools:**  SQL / Power BI
 
 ---
 📫 **How to reach me:** 
